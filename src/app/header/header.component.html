@@ -1,9 +1,15 @@
 <header>
-  <div class="logo-img">
+  <div class="container">
+    <!-- <div class="logo-img"> -->
     <a (click)="goToRoute('')" [title]="title">
-      &nbsp;
-      <!-- <img src="/assets/regal_logo_inverted.png" alt="" border="0" /> -->
+      <img
+        src="/assets/regal_logo_inverted.png"
+        class="img-fluid"
+        alt=""
+        border="0"
+      />
     </a>
+    <!-- </div> -->
+    <h1>{{ title }}</h1>
   </div>
-  <h1>{{ title }}</h1>
 </header>
