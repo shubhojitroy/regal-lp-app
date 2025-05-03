@@ -1,15 +1,16 @@
 <header>
   <div class="container">
-    <!-- <div class="logo-img"> -->
-    <a (click)="goToRoute('')" [title]="title">
-      <img
-        src="/assets/regal_logo_inverted.png"
-        class="img-fluid"
-        alt=""
-        border="0"
-      />
-    </a>
-    <!-- </div> -->
+    <div class="logo-img">
+      <span class="img-fluid" (click)="goToRoute('')" [title]="title">
+        &nbsp;
+        <!-- <img
+            src="/assets/regal_logo_inverted.png"
+            class="img-fluid"
+            alt=""
+            border="0"
+          /> -->
+      </span>
+    </div>
     <h1>{{ title }}</h1>
   </div>
 </header>
