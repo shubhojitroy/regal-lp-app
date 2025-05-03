@@ -27,8 +27,8 @@ $text-color-primary: #373e50;
 }
 
 .body-container {
-  max-width: 950px;
-  width: 100%;
+  // max-width: 950px;
+  // width: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   // text-align: center;
@@ -37,7 +37,7 @@ $text-color-primary: #373e50;
 }
 
 html {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -129,9 +129,11 @@ header {
   // flex-direction: column;
   // align-items: center;
   // gap: 0.275rem;
-  width: 90%;
-  max-width: 50rem;
-  margin: 0 auto 2rem auto;
+
+  // width: 90%;
+  // max-width: 50rem;
+  // margin: 0 auto 2rem auto;
+
   // text-align: center;
   // background: rgba($bg-light, 1);
   // padding: 1rem;
@@ -147,17 +149,23 @@ header {
   // height: 135px; /*100%*/
   display: block;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  // background-position: center;
+  // background-size: cover;
   cursor: pointer;
-  padding: 38px;
+  padding: 55px;
 }
 
-img {
-  width: 100%;
-  object-fit: contain;
-  cursor: pointer;
-}
+// @media (max-width: 768px) {
+//   .logo-img {
+//     padding: 55px;
+//   }
+// }
+
+// img {
+//   width: 100%;
+//   object-fit: contain;
+//   cursor: pointer;
+// }
 
 .img-fluid {
   max-width: 100%;
@@ -170,15 +178,15 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  header {
-    padding: 2rem;
-  }
+  // header {
+  //   padding: 2rem;
+  // }
 
   h1 {
-    margin: 2rem 0 0;
+    margin: 0;
     padding: 0;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 300;
     text-shadow: 1px 1px $color-black;
   }
 }
