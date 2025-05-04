@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  title = 'Regal funds Management';
+  title = 'Online Application';
   constructor(private router: Router) {}
   goToRoute(route: string) {
     this.router.navigate([route]);
